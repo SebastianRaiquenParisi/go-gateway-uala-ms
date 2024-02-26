@@ -1,6 +1,6 @@
 # Projecto Uala
 
-Este microservicio forma parte de un proyecto con arquitectura de microservicios que sirve para demostrar mi profundidad de conocimiento en Golang, Concurrency, go channels, POO, Kafka, Http, GraphQL, SQL y no-SQL db.
+Este microservicio forma parte de un proyecto con arquitectura de microservicios que sirve para demostrar mi profundidad de conocimiento en Golang, Concurrencia, Go channels, POO, Kafka, Http, GraphQL, SQL y no-SQL db.
 
 Esta conformado por 3 microservicios *go-gateway-uala-ms*, *go-monitoreo-uala-ms* y *go-db-uala-ms*.
 Tambien tiene 2 bases de datos no relacionales (no-sql) en *go-monitoreo-uala-ms* y *go-db-uala-ms*, una relacional (sql).
