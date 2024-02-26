@@ -1,6 +1,6 @@
 # Projecto Uala
 
-Este microservicio forma parte de un proyecto con arquitectura de microservicios que sirve para demostrar mi profundidad de conocimiento en Golang, Concurrencia, Go channels, POO, Kafka, Http, GraphQL, SQL y no-SQL db.
+Este microservicio forma parte de un proyecto con arquitectura de microservicios que sirve para demostrar mi profundidad de conocimiento en POO en Golang usando receivers, Concurrencia, Go channels, Kafka, Http, GraphQL, SQL y no-SQL db.
 
 ![golang-uala](https://github.com/SebastianRaiquenParisi/go-gateway-uala-ms/assets/75135291/4ab190b1-0f5a-444a-b5f6-62f43875a6a7)
 
