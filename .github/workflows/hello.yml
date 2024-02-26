@@ -3,7 +3,7 @@ namer: hello world
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   Hello:
