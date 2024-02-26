@@ -2,14 +2,16 @@
 
 Este microservicio forma parte de un proyecto con arquitectura de microservicios que sirve para demostrar mi profundidad de conocimiento en Golang, Concurrencia, Go channels, POO, Kafka, Http, GraphQL, SQL y no-SQL db.
 
+![golang-uala](https://github.com/SebastianRaiquenParisi/go-gateway-uala-ms/assets/75135291/4ab190b1-0f5a-444a-b5f6-62f43875a6a7)
+
 Esta conformado por 3 microservicios *go-gateway-uala-ms*, *go-monitoreo-uala-ms* y *go-db-uala-ms*.
 Tambien tiene 2 bases de datos no relacionales (no-sql) en *go-monitoreo-uala-ms* y *go-db-uala-ms*, una relacional (sql).
 Utiliza kafka como sistema de mensajeria entre microservicios.
 
 ### *go-gateway-uala-ms*
 En el caso de *go-gateway-uala-ms* tiene la responsabilidad de verificar si el usuario es parte del sistema y permitirle acceso si lo es, por lo tanto debe exponerse y autentificar tanto por GraphQL como por http.
-Tambien cuenta con productos de kafka para enviar eventos a *go-monitoreo-uala-ms* y informacion a *go-db-uala-ms*,
- asi como una base de datos relacional que guarda los usuarios.
+Tambien cuenta con producers de kafka para enviar eventos a *go-monitoreo-uala-ms* y informacion a *go-db-uala-ms*,
+asi como una base de datos relacional que guarda los usuarios y los consulta para si el usuario es correcto generar un jwt que permita loguear al usuario.
 
 Es decir tiene estos paquetes:
 - kafka.go (productor y consumidor)
