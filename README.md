@@ -7,7 +7,7 @@ Tambien tiene 2 bases de datos no relacionales (no-sql) en *go-monitoreo-uala-ms
 Utiliza kafka como sistema de mensajeria entre microservicios.
 
 ### *go-gateway-uala-ms*
-En el caso de *go-gateway-uala-ms* tiene la capacidad de verificar si el usuario es parte del sistema y permitirle acceso si lo es, tanto por GraphQL como por http.
+En el caso de *go-gateway-uala-ms* tiene la responsabilidad de verificar si el usuario es parte del sistema y permitirle acceso si lo es, por lo tanto debe exponerse y autentificar tanto por GraphQL como por http.
 Tambien cuenta con productos de kafka para enviar eventos a *go-monitoreo-uala-ms* y informacion a *go-db-uala-ms*,
  asi como una base de datos relacional que guarda los usuarios.
 
